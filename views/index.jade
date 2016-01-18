@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title Amplify
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    form(action='./', method='get')
+      #banner
+        .left
+          #logo Amplify >
+        .right
+          input(type='text', name='q', id='query', value='#{site}')
+    #chart
+    #spinner
+    script(src='/javascripts/d3.v2.js')
+    script(src='/javascripts/spin.min.js')
+    script(src='/javascripts/amplify.js')
