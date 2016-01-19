@@ -17,7 +17,7 @@ body {
   width: 100%;
   background-color: #000;
   color: #fff;
-  height: 38px;
+  height: 40px;
 }
 #logo {
   position: absolute;
@@ -27,9 +27,10 @@ body {
 }
 #query {
   position: absolute;
-  width: calc(100% - 105px);
+  width: calc(100% - 60px);
+  height: 20px;
   padding: 5px;
-  top: 3px;
+  top: 5px;
   right: 5px;
   border: 0px;
   font-size: 14px;
